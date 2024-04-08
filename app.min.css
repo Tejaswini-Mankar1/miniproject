@@ -62,13 +62,22 @@ body {
 }
 
 .nav-second-level li a, .nav-thrid-level li a {
+    font-family: 'Nunito';
     padding: 8px 20px;
     color: white;
     display: block;
     position: relative;
     -webkit-transition: all .4s;
     transition: all .4s;
-    font-size: .875rem
+    font-size: .875rem;
+    font-weight: 700;
+    /* padding: 8px 20px;
+    color: white;
+    display: block;
+    position: relative;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    font-size: .875rem*/
 }
 
 .nav-second-level li a:focus, .nav-second-level li a:hover, .nav-thrid-level li a:focus, .nav-thrid-level li a:hover {
@@ -76,7 +85,7 @@ body {
 }
 
 .nav-second-level li.active>a, .nav-third-level li.active>a {
-    color: #00acc1
+    color: black;
 }
 
 #wrapper {
@@ -125,7 +134,10 @@ body {
 }
 
 #sidebar-menu>ul>li>a>span {
-    vertical-align: middle
+    vertical-align: middle;
+    font-family: 'Nunito';
+    
+    font-weight: 800;
 }
 
 #sidebar-menu>ul>li>a i {
@@ -146,7 +158,10 @@ body {
 }
 
 #sidebar-menu>ul>li>a.active {
+    
+    font-family: 'Nunito';
     color: beige;
+    font-weight: 800;
 }
 
 #sidebar-menu>ul>li>ul {
@@ -253,7 +268,6 @@ body {
     font-size: 1.125rem;
     margin-right: 20px
 }
-
 .enlarged .left-side-menu #sidebar-menu>ul>li>a span {
     display: none;
     padding-left: 25px
@@ -742,14 +756,18 @@ body.enlarged {
     background-color: #f1f5f7;
     color: #ced4da
 }
-
 .page-title-box .page-title {
-    margin: 0;
+   /* margin: 0;
     font-size: 35px;
     font-weight: bolder;
     color: dimgray;
-    text-shadow: 4.5px 4.1px lightgray;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;*/
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: 900;
+    color: dimgray;
+    font-family: 'Nunito';
+    color: white;
 }
 
 .page-title-box .page-title-right {
