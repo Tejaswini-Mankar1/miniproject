@@ -8,7 +8,7 @@
                         <ul class="metismenu" id="side-menu">
 
                             <!--<li class="menu-title">Navigation</li>-->
-                            <img src="assets\images\medscan.png" alt="">
+                            <img src="assets\images\removed_bg.png" alt="">
 
                             <li>
                                 <a href="his_doc_dashboard.php">
@@ -141,6 +141,27 @@
                                     <li>
                                         <a href="his_doc_view_payrolls.php">My Payrolls</a>
                                     </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript: void(0);">
+                                   <!-- <i class=" fas fa-funnel-dollar "></i>-->
+                                    <span> QR Code Generation </span>
+                                    <span class="menu-arrow"></span>
+                                </a>
+                                <ul class="nav-second-level" aria-expanded="false">
+                                   
+                                   <!-- <li>
+                                        <a href="his_doc_pharm_inventory.php">Pharmaceuticals</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="his_doc_equipments_inventory.php">Assets</a>
+                                    </li>-->
+                                    <li>
+                                        <a href="qrCode.php">Generate QR</a>
+                                    </li>
+                                    
                                 </ul>
                             </li>
 
